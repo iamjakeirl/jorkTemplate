@@ -1,0 +1,13 @@
+---
+description: Utilizing expo-router
+globs: 
+alwaysApply: false
+---
+Navigation with Expo Router
+
+Use Link component with type-checked href props.
+Type route parameters with useLocalSearchParams hook.
+Use the useRouter hook with proper typing for imperative navigation.
+Follow Expo Router's file-based routing conventions.
+Use the Tabs component from expo-router/ui for tab navigation.
+Create reusable layout components with proper TypeScript types if something doesn't already exist in react-native-paper.

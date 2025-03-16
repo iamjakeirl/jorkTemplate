@@ -1,0 +1,12 @@
+---
+description: Utilizing Zustand
+globs: 
+alwaysApply: false
+---
+State Management with Zustand
+
+Define typed stores using TypeScript generics.
+Use selectors to access specific parts of the state.
+Type all store actions explicitly.
+Create custom hooks that expose only what components need.
+Use persist middleware when you need to save state to storage.s

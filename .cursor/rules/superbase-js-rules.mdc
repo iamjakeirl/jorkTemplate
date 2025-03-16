@@ -1,0 +1,12 @@
+---
+description: Utilizing supabase and supabasejs
+globs: 
+alwaysApply: false
+---
+Supabase Integration
+
+Type all Supabase queries with correct return types.
+Handle Supabase errors with typed error handling.
+Create utility functions for common database operations.
+Type storage operations explicitly.
+Use appropriate types for database responses.

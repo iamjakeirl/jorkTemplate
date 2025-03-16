@@ -1,0 +1,12 @@
+---
+description: Utilizing TanstackQuery
+globs: 
+alwaysApply: false
+---
+TanStack Query Implementation
+
+Type query functions with explicit return types.
+Use generic type parameters with useQuery hooks.
+Define error types for failed queries.
+Create custom hooks that encapsulate query logic.
+Implement error handling for query failures.

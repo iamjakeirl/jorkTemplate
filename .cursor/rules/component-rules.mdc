@@ -1,0 +1,6 @@
+---
+description: Utilizing or creating components
+globs: 
+alwaysApply: false
+---
+Utilize components from react-native-paper whenever possible, and if creating something from scratch, utilize atomic design principles. 

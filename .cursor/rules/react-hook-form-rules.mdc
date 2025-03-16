@@ -1,0 +1,12 @@
+---
+description: Utilizing React-hook-form
+globs: 
+alwaysApply: false
+---
+React Hook Form
+
+Use useForm with explicit generic type parameters.
+Type form field names correctly.
+Apply consistent error handling patterns across forms.
+Type form submission handlers explicitly.
+Create reusable form components for common patterns.
