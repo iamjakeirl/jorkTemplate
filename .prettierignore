@@ -1,0 +1,38 @@
+# Build artifacts
+node_modules
+.expo
+dist
+build
+web-build
+
+# Generated files
+package-lock.json
+yarn.lock
+*.lock
+
+# Cache
+.cache
+.eslintcache
+
+# Misc
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.ttf
+*.woff
+*.woff2
+*.eot 

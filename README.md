@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+# React Native Template with Comprehensive Development Stack
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern React Native template using Expo's app router, featuring a complete development stack for building production-ready mobile applications.
 
-## Get started
+## Key Features
 
-1. Install dependencies
+- 🚀 **Navigation**: Expo Router for file-based routing
+- 🔐 **Authentication**: Supabase with Expo Secure Store for secure authentication
+- 📝 **Form Management**: React Hook Form for easy form handling
+- 📦 **State Management**: Zustand for global state and TanStack Query for server state
+- 🎨 **UI Components**: React Native Paper with Vector Icons for a rich UI experience
+- 🧪 **Testing**: Jest and React Testing Library for unit tests, Detox for E2E testing
+- 🚀 **Build/Deployment**: EAS (Expo Application Services) for streamlined builds and deployment
+- 🐛 **Error Monitoring**: Sentry integration for error tracking
+- 🌍 **Internationalization**: i18next with Expo Localization for multi-language support
+- 📱 **Push Notifications**: Expo Notifications for handling push notifications
 
-   ```bash
-   npm install
-   ```
+## Project Structure
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+src/
+├── components/     # Reusable UI components
+├── config/         # Configuration files (Supabase, Sentry, etc.)
+├── constants/      # App-wide constants
+├── hooks/          # Custom React hooks
+├── i18n/           # Internationalization files
+├── navigation/     # Navigation configuration
+├── screens/        # Screen components
+├── services/       # API and external service integrations
+├── stores/         # Zustand stores
+├── theme/          # Theme configuration
+├── types/          # TypeScript type definitions
+└── utils/          # Utility functions
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Environment Setup
 
-## Learn more
+Create a `.env` file in the root directory with the following variables:
 
-To learn more about developing your project with Expo, look at the following resources:
+```
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+SENTRY_DSN=your_sentry_dsn
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Getting Started
 
-## Join the community
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Configure services:
+   - Create a Supabase project and add credentials to `.env`
+   - Set up Sentry project and add DSN to `.env`
+   - Configure EAS for builds and deployment
+4. Start the development server: `npm start`
 
-Join our community of developers creating universal apps.
+## Available Scripts
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `npm start` - Start the Expo development server
+- `npm test` - Run Jest tests
+- `npm run android` - Start the Android emulator
+- `npm run ios` - Start the iOS simulator
+- `npm run web` - Start the web version of the app
+- `npm run lint` - Lint the codebase
+- `npm run format` - Format the codebase using Prettier
+- `npm run format:check` - Check the code formatting
+- `npm run lint-format` - Run both linting and formatting
+
+## Learn More
+
+To learn more about the tools and libraries used in this template:
+
+- [Expo Documentation](https://docs.expo.dev/)
+- [Supabase Documentation](https://supabase.com/docs)
+- [React Hook Form Documentation](https://react-hook-form.com/)
+- [TanStack Query Documentation](https://tanstack.com/query)
+- [Zustand Documentation](https://github.com/pmndrs/zustand)
+- [React Native Paper Documentation](https://callstack.github.io/react-native-paper/)
+- [Detox Documentation](https://wix.github.io/Detox/)
+- [Sentry React Native Documentation](https://docs.sentry.io/platforms/react-native/)
+- [i18next Documentation](https://www.i18next.com/)
+
+## Contributing
+
+Contributions are welcome! Please read our contributing guidelines before submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Welcome to your Expo app 👋
+
+This is an [Expo](https://expo.dev) project created with [`
