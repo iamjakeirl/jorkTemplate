@@ -32,7 +32,10 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store",
+      "sentry-expo",
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true
