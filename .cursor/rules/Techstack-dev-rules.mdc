@@ -4,3 +4,5 @@ globs:
 alwaysApply: true
 ---
 We are using Zustand, TanstackQuery, React-hook-form, react-native-paper, SupabaseJS, and Expo SDK as core parts of our application flow. Reference their respective rules documents when creating implementations that utilize them. We are using Expo router for navigation.
+
+[documentation_links.md](mdc:ai docs/documentation_links.md) contains base urls to begin your search regarding current documentation for each module
