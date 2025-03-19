@@ -1,4 +1,4 @@
-# React Native Template with Development Stack
+# Expo + React Native Template with Development Stack
 
 A modern React Native template using Expo's app router, featuring a complete development stack for building production-ready mobile applications. I reccomend a .cursorrules and some mcp setup if you use this with cursor. 
 
