@@ -10,3 +10,4 @@ Handle Supabase errors with typed error handling.
 Create utility functions for common database operations.
 Type storage operations explicitly.
 Use appropriate types for database responses.
+You can use the supabase mcp server to query table structures and other information when needed. 

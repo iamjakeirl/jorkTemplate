@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## Sequential Thinking
+- Use **Sequential Thinking MCP** for debugging, troubleshooting, complex problem-solving, and detailed project planning.
+- Avoid excessive recursive calls; trigger intelligently only when new progress or significant information is possible.
+
+## Information Gathering (Brave Search, Perplexity)
+- Use **Brave Search, and Perplexity MCP servers** when troubleshooting, searching documentation, or exploring similar user issues.
+- Combine effectively with **Sequential Thinking MCP** to refine solutions and acquire up-to-date information.
+- Prioritize reliable and concise sources.
+- Only use perplexity if Brave is not providing adequate information.
+
+## Supabase
+- Use **Supabase MCP server** to query and perform other database operations. Only delete or modify tables, create new RLS policies, implement functions, or any other generative or destructive action with explicit permission, but feel free to query whenever needed. 
+

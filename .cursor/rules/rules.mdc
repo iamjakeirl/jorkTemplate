@@ -13,7 +13,7 @@ Follow these guidelines to ensure your code is clean, maintainable, and adheres 
 
 # Key Mindsets
 
-**1** **Simplicity**: Write simple and straightforward code.
+**1** **Simplicity**: Write simple and straightforward code. Do not modify code that already works.
 **2** **Readability**: Ensure your code is easy to read and understand.
 **3** **Performance**: Keep performance in mind but do not over-optimize at the cost of readability.
 **4** **Maintainability**: Write code that is easy to maintain and update.
@@ -30,7 +30,7 @@ Code Guidelines
 **4** **Constants Over Functions**: Use constants instead of functions where possible. Define types if applicable.
 **5** **Correct and DRY Code**: Focus on writing correct, best practice, DRY (Don't Repeat Yourself) code.
 **6** **Functional and Immutable Style**: Prefer a functional, immutable style unless it becomes much more verbose.
-**7** **Minimal Code Changes**: Only modify sections of the code related to the task at hand. Avoid modifying unrelated pieces of code. Accomplish goals with minimal code changes.
+**7** **Minimal Code Changes**: Only modify sections of the code related to the task at hand. Avoid modifying unrelated pieces of code. Accomplish goals with minimal code changes. Never unintentionally delete data or code. Confirm explicitly before destructive action. 
 **8** **Testing**: Test code using Jest. 
 **9** **Enums**: Use enums for constants with fixed values
 **10** **General**: Use optional chaining and nullish coalescing with proper typing. Apply consistent naming conventions for types and interfaces. Leverage type inference when appropriate.
@@ -55,6 +55,6 @@ Handling Bugs
 **Avoid modifying unrelated pieces of code.**
 **Avoid changing existing comments, unless refactoring the code they are related to.**
 **Avoid any kind of cleanup unless specifically instructed to, or you are removing an old function and replacing it with a new one.**
-**Accomplish the goal with the minimum amount of code changes.**
+**Accomplish the goal with the minimum amount of code changes. Do not make changes on your own that have no been agreed upon by yourself and {{user}}**
 **Code change = potential for bugs and technical debt.**
 

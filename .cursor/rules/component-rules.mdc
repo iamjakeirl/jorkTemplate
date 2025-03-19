@@ -3,4 +3,4 @@ description: Utilizing or creating components
 globs: 
 alwaysApply: false
 ---
-Utilize components from react-native-paper whenever possible, and if creating something from scratch, utilize atomic design principles. 
+Utilize components from react-native-paper whenever possible, and if creating something from scratch, utilize atomic design principles. Always utilize the components we already have to create new ones if possible. It's better if a components extends or utilizes an existing one rather than making a new one that does the same thing. Like DRY coding but for components. 
