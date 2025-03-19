@@ -87,3 +87,14 @@ Contributions are welcome! Please read our contributing guidelines before submit
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## MCP Servers
+
+This project typically requires the following MCP servers:
+
+- **Perplexity**: For advanced search capabilities.
+- **Brave Search**: For general search and information gathering.
+- **Supabase (Alexander Zuev)**: For database operations and management.
+- **Sequential Thinking**: For debugging, troubleshooting, and complex problem-solving.
+
+Additionally, the project includes the **Magic MCP** for React components, although it is not strictly necessary.
+
